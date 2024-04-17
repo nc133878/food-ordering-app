@@ -1,0 +1,37 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+       <link rel="stylesheet" href="index.css">
+       <!-- Font Awesome CDN -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <header class="nav-sec" >
+            <img class="hero-img" src="images/diner-header.png">
+        </header> 
+        
+        <div class="container">
+            <section id="menu-el">
+            </section>
+                  
+            <section id="checkout-el">
+            </section>
+            
+            <section class="modal" id="modal-el">
+                <div class="modal-inner">
+                <h2>Enter card details</h2>
+                <form>
+                    <input type="text" id="name-el" placeholder="Enter your name" required/>
+                    <input type="text" id="input-el" placeholder="Enter card number" required/>
+                    <input type="text" id="input-el" placeholder="Enter CVV" required/>
+                    <button type="button" id="pay-btn" class="checkout-btn pay-btn txt-cntr">Pay</button>
+                </form>  
+            </div>
+            </section>
+            
+            
+        </div>
+        
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+

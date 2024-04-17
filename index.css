@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    max-width: 600px;
+} 
+
+h2{
+    text-align: center;
+    margin: 30px 0;
+}
+
+hr{
+    height: 2px;
+    background: black
+}
+
+input{
+    display: block;
+    margin: 15px 0;
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button:hover, .remove-btn:hover{
+    cursor: pointer;
+}
+
+.container {
+    margin: 0 28px
+}
+
+.txt-cntr{
+    text-align: center;
+}
+
+.page-margin{
+    margin: 10px auto;
+} 
+
+.hero-img {
+    width: 600px;
+    height: 150px;
+}
+
+.food-item{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid lightgrey;
+    padding: 10px 20px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 405px;
+    width: 400px;
+    box-shadow: 0px 0px 100px 0px #333;
+    background-color: #fff;
+    color: black;
+}
+
+.modal-inner {
+    margin: 20px 20px;
+}
+
+.plus-btn{
+    margin-left: auto;
+    border: 2px solid lightgray;
+    background: none;
+    font-size: 25px;
+    padding: 5px 12px;
+    border-radius: 50px
+
+}
+
+.checkout-btn{
+    margin: 50px auto;
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    font-weight: bold;
+    border-radius: 4px;
+    background-color: #16DB99;
+    color: #fff;
+}
+
+
+.cart-desc {
+    display: flex;
+    padding: 0 0 0 0 ;
+}
+
+
+.food-pic {
+       margin: 0 20px 0 0;
+}
+
+.remove-btn{
+    padding: 5px 15px;
+    color: gray;
+    font-size: 15px;
+}
+
+.item{
+}
+
+.cost{
+    display: inline;
+    margin-left: auto;
+}
+
+.thanks-div{
+    background: #ECFDF5;
+}
+
+.thanks-text{
+    color: #065F46;
+    text-shadow: 0px 0px 50px 0px #000; 
+    padding: 40px;
+}
+
+#line{
+    width: 4px;
+    height: 2px;
+    background: black;
+}
+
+#order-section-margin{
+    margin: 40px 0;
+}
